@@ -1,0 +1,11 @@
+<div>
+    <div class="mb-2">
+        <app-sub-title text="links"></app-sub-title>
+    </div>
+
+    <div class="d-flex flex-column">
+        <a *ngFor="let link of links" href="{{ link.url }}" class="mb-0">
+            {{ link.name }}
+        </a>
+    </div>
+</div>

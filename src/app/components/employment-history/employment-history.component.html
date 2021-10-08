@@ -1,0 +1,10 @@
+<div>
+  <div class="mb-2">
+    <app-sub-title [text]="textSubTitle"></app-sub-title>
+  </div>  
+
+  <div *ngFor="let employment of employments" class="mb-3">
+    <app-employment [employment]="employment">
+    </app-employment>
+  </div>
+</div>

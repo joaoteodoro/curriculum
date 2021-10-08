@@ -1,0 +1,40 @@
+<div class="pt-3">
+    <div class="d-flex justify-content-center mb-3">
+        <div class="text-center ps-5 pt-3 pe-5 pb-3 border border-dark">
+            <h1 class="fs-2">{{ allContent?.details?.name }}</h1>
+            <p class="fs-4 mb-0 fw-light">{{ allContent?.details?.jobTitle }}</p>
+        </div>
+    </div>
+
+    <div class="d-flex justify-content-between">
+        <div class="m-3 ms-5 me-0 pe-4">
+            <div class="mb-4">
+                <app-details [phone]="allContent?.details?.phone" [email]="allContent?.details?.email"></app-details>
+            </div>            
+
+            <div class="mb-4">
+                <app-links [links]="allContent?.links"></app-links>
+            </div>
+
+            <div class="mb-4">
+                <app-skills [skills]="allContent?.skills"></app-skills>
+            </div>
+        </div>
+
+        <div class="m-3 ms-0 me-5">
+            <div class="mb-4">
+                <app-profile [text]="allContent?.profile.description"></app-profile>    
+            </div>
+
+            <div class="mb-4">
+                <app-employment-history [employments]="allContent?.employments" textSubTitle="Employmet History">
+                </app-employment-history>
+            </div>
+
+            <div class="mb-4">
+                <app-employment-history [employments]="allContent?.education" textSubTitle="education"></app-employment-history>    
+            </div>            
+        </div>
+    </div>
+
+</div>
