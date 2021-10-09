@@ -3,8 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainPageComponent } from './pages/main-page/main-page.component';
 
 const routes: Routes = [
-  { path: '', component: MainPageComponent },
-  { path: ':locale', component: MainPageComponent },
+  { path: '', redirectTo: 'curriculum', pathMatch: 'full' },
+  { path: 'curriculum', component: MainPageComponent },
+  { path: 'curriculum/:locale', component: MainPageComponent },
 ];
 
 @NgModule({
