@@ -4,3 +4,21 @@
 p {
     font-size: 14px;
 }
+
+// @media print {
+//     :not(.printMe) {
+//       visibility: hidden;
+//     }
+//   }
+  
+//   @media print {
+//     .printMe {
+//       visibility: visible
+//     }
+//   }
+
+@media print {
+    .notPrint {
+        visibility: hidden;
+    }
+}

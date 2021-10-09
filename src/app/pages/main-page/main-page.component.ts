@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import jsPDF from 'jspdf';
+import html2canvas from 'html2canvas';
 
 @Component({
   selector: 'app-main-page',
@@ -158,6 +160,15 @@ export class MainPageComponent implements OnInit {
       ]
     }
 
+  }
+
+  print() {
+    window.print();
+  }
+
+  changeLanguage(code: string) {
+    localStorage.setItem('locale', code);
+    window.location.reload();
   }
 
 }
