@@ -1,15 +1,16 @@
 <div>
     <div class="mb-2">
-        <app-sub-title text="details"></app-sub-title>
+        <app-sub-title text="{{'text.details' | translate}}"></app-sub-title>
     </div>
 
     <div>
-        <p class="fw-bold mb-0">PHONE</p>
+        <!-- <p class="fw-bold mb-0">PHONE</p> -->
+        <p class="fw-bold mb-0">{{'text.phone' | translate | uppercase}}</p>
         <p class="mb-2">{{ phone }}</p>
     </div>
 
     <div>
-        <p class="fw-bold mb-0">EMAIL</p>
+        <p class="fw-bold mb-0">{{'text.email' | translate | uppercase}}</p>
         <p class="mb-2">{{ email }}</p>
     </div>
 </div>

@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-main-page',
@@ -8,10 +9,27 @@ import { Component, OnInit } from '@angular/core';
 export class MainPageComponent implements OnInit {
 
   allContent: any;
+  locale: string = 'pt-br';
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute,
+  ) { }
 
   ngOnInit(): void {
+    console.log('ngOnInit')
+    this.route.params.subscribe(params => {
+      if (params.locale) {
+        const auxLocale = localStorage.getItem('locale');
+
+        this.locale = params.locale;
+        localStorage.setItem('locale', this.locale);
+
+        if (auxLocale != this.locale) {
+          window.location.reload();
+        }
+      }
+    })
+
     this.allContent = {
       details: {
         name: 'João Teodoro de Oliveira Neto',
@@ -139,6 +157,7 @@ export class MainPageComponent implements OnInit {
         },
       ]
     }
+
   }
 
 }

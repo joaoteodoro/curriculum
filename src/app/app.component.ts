@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'curriculo';
+
+  public changeLanguage(code: string) {
+    localStorage.setItem('locale', code);
+    window.location.reload();
+  }
 }
