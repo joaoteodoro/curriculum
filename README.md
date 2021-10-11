@@ -1,5 +1,7 @@
 # Curriculo
 
+This project contains my resume. Can seen in https://joaoteodoro-curriculum.netlify.app
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
 
 ## Development server

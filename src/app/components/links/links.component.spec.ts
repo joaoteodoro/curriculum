@@ -1,4 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
+import { TranslateModule } from '@ngx-translate/core';
 
 import { LinksComponent } from './links.component';
 
@@ -8,7 +9,8 @@ describe('LinksComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LinksComponent ]
+      declarations: [ LinksComponent ],
+      imports: [TranslateModule.forRoot()]
     })
     .compileComponents();
   });
