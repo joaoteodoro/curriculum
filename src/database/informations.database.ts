@@ -250,8 +250,8 @@ export const informations = [
             ],
             education: [
                 {
-                    title: 'System Analisys',
-                    employer: 'Universidade Federal de Uberlândia',
+                    title: 'Information Systems',
+                    employer: 'Federal University of Uberlândia',
                     startDate: 'Mar 2012',
                     endDate: 'Feb 2017',
                     city: 'Uberlândia',
