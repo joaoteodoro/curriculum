@@ -62,7 +62,7 @@ export const informationEn = {
     },
   ],
   profile: {
-    description: "6 years of experience in software development with greater knowledge in Java and Javascript. Graduated in Information Systems from the Federal University of Uberlândia. I also have knowledge of SQL database. I'm currently working as a fullstack developer, using Angular for frontend and Java with Spring modules for backend. I have an intermediate level of English.",
+    description: "I'm Brazilian, married and I'm 28 years old. I have 6 years of experience in software development with greater knowledge in Java and Javascript. Graduated in Information Systems from the Federal University of Uberlândia. I also have knowledge of SQL database. I'm currently working as a fullstack developer, using Angular for frontend and Java with Spring modules for backend. I have an intermediate level of English.",
   },
   employments: [
     {
