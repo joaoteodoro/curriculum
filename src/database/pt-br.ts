@@ -107,7 +107,7 @@ export const informationPtBr = {
     },
     {
       title: 'Desenvolvedor Especialista',
-      employer: 'everis',
+      employer: 'NTT DATA Europe & LATAM',
       startDate: 'Mai 2020',
       endDate: '',
       city: 'Uberlândia',

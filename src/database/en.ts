@@ -107,7 +107,7 @@ export const informationEn = {
     },
     {
       title: 'Specialist Developer',
-      employer: 'everis',
+      employer: 'NTT DATA Europe & LATAM',
       startDate: 'May 2020',
       endDate: '',
       city: 'Uberlândia',
