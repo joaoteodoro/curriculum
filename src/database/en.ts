@@ -2,7 +2,7 @@ export const informationEn = {
   details: {
     name: 'João Teodoro de Oliveira Neto',
     jobTitle: 'Software Developer',
-    phone: '+5534992316267',
+    phone: '+55 34 992316267',
     email: 'joaoneto.itba@gmail.com',
   },
   links: [
@@ -21,11 +21,15 @@ export const informationEn = {
       level: 4,
     },
     {
+      name: 'Javascript',
+      level: 4,
+    },
+    {
       name: 'Spring Framework',
       level: 4,
     },
     {
-      name: 'Javascript',
+      name: 'Angular',
       level: 4,
     },
     {
@@ -34,10 +38,6 @@ export const informationEn = {
     },
     {
       name: 'CSS',
-      level: 4,
-    },
-    {
-      name: 'Angular',
       level: 4,
     },
     {
@@ -62,7 +62,7 @@ export const informationEn = {
     },
   ],
   profile: {
-    description: "I'm Brazilian, married and I'm 28 years old. I have 6 years of experience in software development with greater knowledge in Java and Javascript. Graduated in Information Systems from the Federal University of Uberlândia. I also have knowledge of SQL database. I'm currently working as a fullstack developer, using Angular for frontend and Java with Spring modules for backend. I have an intermediate level of English.",
+    description: "8 years of experience in software development with greater knowledge in Java and Javascript. Graduated in Information Systems from the Federal University of Uberlândia. I also have knowledge of SQL database. I'm currently working as a frontend Angular developer. I have an intermediate level of English.",
   },
   employments: [
     {
@@ -70,7 +70,7 @@ export const informationEn = {
       employer: 'Powerlogic',
       startDate: 'Jun 2015',
       endDate: 'Sep 2015',
-      city: 'Uberlândia',
+      city: 'Uberlândia - BR',
       description: 'I worked in the development and maintenance of systems linked to Uberlândia city council, working with database modeling and Java EE application development with JSF. Tools used: Java EE, JSF, Oracle Database, Hibernate, MVC.'
     },
     {
@@ -78,7 +78,7 @@ export const informationEn = {
       employer: 'Ibrowse Consultoria e Informática',
       startDate: 'Oct 2015',
       endDate: 'Jan 2016',
-      city: 'Uberlândia',
+      city: 'Uberlândia - BR',
       description: 'I worked in the development and maintenance of systems linked to Uberlândia city council, working with database modeling and Java EE application development with JSF. Tools used: Java EE, JSF, Oracle Database, Hibernate, MVC.'
     },
     {
@@ -86,7 +86,7 @@ export const informationEn = {
       employer: 'everis',
       startDate: 'Feb 2016',
       endDate: 'Aug 2016',
-      city: 'Uberlândia',
+      city: 'Uberlândia - BR',
       description: 'I worked in the development and maintenance of systems for companies in the telephony area, working mainly with web systems. Tools used: Java EE, JSP, Spring, Hibernate, Oracle Database, Bootstrap.'
     },
     {
@@ -94,7 +94,7 @@ export const informationEn = {
       employer: 'Ibrowse Consultoria e Informática',
       startDate: 'Sep 2016',
       endDate: 'Jan 2018',
-      city: 'Uberlândia',
+      city: 'Uberlândia - BR',
       description: 'I worked in the development and maintenance of systems linked to Uberlândia city council, mainly in the migration of Java EE systems with JSF to applications divided into frontend and backend (REST API), using Angular and Sringboot respectively. Tools used: Java EE, JSF, Spring, REST, Hibernate, Oracle Database, Bootstrap, Angular, HTML, CSS, Javascript, Typescript.'
     },
     {
@@ -102,17 +102,25 @@ export const informationEn = {
       employer: 'Ene Soluções',
       startDate: 'Jan 2018',
       endDate: 'May 2020',
-      city: 'Uberlândia',
+      city: 'Uberlândia - BR',
       description: 'I worked in the development and maintenance of web systems in several areas: telephony, system integrators, ad sites. In several projects that I participated, I worked with database, with backend applications and also with frontend applications. Tools used: Java, Spring, REST, Hibernate, RestTemplate, Node.js, NestJS, Oracle Database, PostgresSQL and MySQL, Angular, React, HTML, CSS, Javascript, Typescript.'
     },
     {
       title: 'Specialist Developer',
       employer: 'NTT DATA Europe & LATAM',
       startDate: 'May 2020',
-      endDate: '',
-      city: 'Uberlândia',
-      description: 'I currently work in the development and maintenance of web systems for the banking sector. I also support and mentor other developers working on the same systems. Tools used: Java, Spring, JSP, MVC, REST, Webtarget, JUnit, Mockito, Angular, HTML, CSS, Javascript, Typescript.'
+      endDate: 'Apr 2022',
+      city: 'Uberlândia - BR',
+      description: 'I worked on the development and maintenance of web systems for the banking sector. Also in supporting and mentoring other developers who worked on the same systems. Tools used: Java, Spring, JSP, MVC, REST, Webtarget, JUnit, Mockito, Angular, HTML, CSS, Javascript, Typescript.'
     },
+    {
+      title: 'Software Developer',
+      employer: 'Decskill',
+      startDate: 'Apr 2022',
+      endDate: '',
+      city: 'Lisbon - Portugal (remote)',
+      description: 'I am currently working on the development and maintenance of frontend web applications for the energy sector in Portugal, creating simple and complex components in Angular that make up these applications. I work following the SCRUM methodology. Tools used: Angular, HTML, CSS, Javascript, Typescript.'
+    }
   ],
   education: [
     {
@@ -120,7 +128,7 @@ export const informationEn = {
       employer: 'Federal University of Uberlândia',
       startDate: 'Mar 2012',
       endDate: 'Feb 2017',
-      city: 'Uberlândia',
+      city: 'Uberlândia - BR',
       description: ''
     },
   ]

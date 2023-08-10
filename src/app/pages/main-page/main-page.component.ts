@@ -16,7 +16,11 @@ export class MainPageComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    const locale = localStorage.getItem('locale');
+    let locale = localStorage.getItem('locale');
+    if (!locale) {
+      localStorage.setItem('locale', 'en');
+      locale = localStorage.getItem('locale');
+    }
     this.allContent = this.curriculumService.findByLocale(locale);
   }
 

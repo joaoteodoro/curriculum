@@ -2,7 +2,7 @@ export const informationPtBr = {
   details: {
     name: 'João Teodoro de Oliveira Neto',
     jobTitle: 'Desenvolvedor de Sistemas',
-    phone: '+5534992316267',
+    phone: '+55 34 992316267',
     email: 'joaoneto.itba@gmail.com',
   },
   links: [
@@ -21,11 +21,15 @@ export const informationPtBr = {
       level: 4,
     },
     {
+      name: 'Javascript',
+      level: 4,
+    },
+    {
       name: 'Spring Framework',
       level: 4,
     },
     {
-      name: 'Javascript',
+      name: 'Angular',
       level: 4,
     },
     {
@@ -34,10 +38,6 @@ export const informationPtBr = {
     },
     {
       name: 'CSS',
-      level: 4,
-    },
-    {
-      name: 'Angular',
       level: 4,
     },
     {
@@ -62,7 +62,7 @@ export const informationPtBr = {
     },
   ],
   profile: {
-    description: "6 anos de experiência em desenvolvimento de softwares com maiores conhecimentos em Java e Javascript. Graduado em Sistemas de Informação pela Universidade Federal de Uberlândia. Também tenho conhecimento em banco de dados SQL. Atualmente estou trabalhando como desenvolvedor fullstack, usando as ferramentas Angular (frontend) e Java com módulos spring (backend). Tenho nível de inglês intermediário.",
+    description: "8 anos de experiência em desenvolvimento de softwares com maiores conhecimentos em Java e Javascript. Graduado em Sistemas de Informação pela Universidade Federal de Uberlândia. Também tenho conhecimento em banco de dados SQL. Atualmente estou trabalhando como desenvolvedor frontend Angular. Tenho nível de inglês intermediário.",
   },
   employments: [
     {
@@ -109,9 +109,17 @@ export const informationPtBr = {
       title: 'Desenvolvedor Especialista',
       employer: 'NTT DATA Europe & LATAM',
       startDate: 'Mai 2020',
-      endDate: '',
+      endDate: 'Abr 2022',
       city: 'Uberlândia',
-      description: 'Atualmente trabalho no desenvolvimento e manutenção de sistemas web do setor bancário. Também apoio e faço mentoria a outros desenvolvedores que atuam no mesmos sistemas. Ferramentas utilizadas: Java, Spring, JSP, MVC, REST, Webtarget, JUnit, Mockito, Angular, HTML, CSS, Javascript, Typescript.'
+      description: 'Trabalhei no desenvolvimento e manutenção de sistemas web do setor bancário. Também no apoio e mentoria a outros desenvolvedores que atuavam nos mesmos sistemas. Ferramentas utilizadas: Java, Spring, JSP, MVC, REST, Webtarget, JUnit, Mockito, Angular, HTML, CSS, Javascript, Typescript.'
+    },
+    {
+      title: 'Desenvolvedor de software',
+      employer: 'Decskill',
+      startDate: 'Abr 2022',
+      endDate: '',
+      city: 'Lisboa - Portugal (remoto)',
+      description: 'Atualmente trabalho no desenvolvimento e manutenção de aplicações web frontend do setor de energia em Portugal, criando componentes simples e complexos em Angular que compõem essas aplicações. Trabalho seguindo a metodologia SCRUM. Ferramentas utilizadas: Angular, HTML, CSS, Javascript, Typescript.'
     },
   ],
   education: [
