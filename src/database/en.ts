@@ -114,7 +114,7 @@ export const informationEn = {
       description: 'I worked on the development and maintenance of web systems for the banking sector. Also in supporting and mentoring other developers who worked on the same systems. Tools used: Java, Spring, JSP, MVC, REST, Webtarget, JUnit, Mockito, Angular, HTML, CSS, Javascript, Typescript.'
     },
     {
-      title: 'Software Developer',
+      title: 'Senior Developer',
       employer: 'Decskill',
       startDate: 'Apr 2022',
       endDate: '',

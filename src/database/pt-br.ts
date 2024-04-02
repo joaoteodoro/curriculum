@@ -114,12 +114,12 @@ export const informationPtBr = {
       description: 'Trabalhei no desenvolvimento e manutenção de sistemas web do setor bancário. Também no apoio e mentoria a outros desenvolvedores que atuavam nos mesmos sistemas. Ferramentas utilizadas: Java, Spring, JSP, MVC, REST, Webtarget, JUnit, Mockito, Angular, HTML, CSS, Javascript, Typescript.'
     },
     {
-      title: 'Desenvolvedor de software',
+      title: 'Desenvolvedor Sênior',
       employer: 'Decskill',
       startDate: 'Abr 2022',
       endDate: '',
       city: 'Lisboa - Portugal (remoto)',
-      description: 'Atualmente trabalho no desenvolvimento e manutenção de aplicações web frontend do setor de energia em Portugal, criando componentes simples e complexos em Angular que compõem essas aplicações. Trabalho seguindo a metodologia SCRUM. Ferramentas utilizadas: Angular, HTML, CSS, Javascript, Typescript.'
+      description: 'Atualmente trabalho no desenvolvimento e manutenção de aplicações web frontend do setor de energia de Portugal, criando componentes simples e complexos em Angular que compõem essas aplicações. Trabalho seguindo a metodologia SCRUM. Ferramentas utilizadas: Angular, HTML, CSS, Javascript, Typescript.'
     },
   ],
   education: [
